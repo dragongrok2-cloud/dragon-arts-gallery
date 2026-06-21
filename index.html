@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🐉 Галерея Драконов</title>
+    <style>
+        body { font-family: Arial, sans-serif; background: #0a0a1f; color: #a0d8ff; text-align: center; }
+        h1 { color: #ffcc00; }
+        .gallery { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; padding: 20px; }
+        .gallery img { width: 100%; border-radius: 15px; box-shadow: 0 0 15px #ffcc00; transition: transform 0.3s; }
+        .gallery img:hover { transform: scale(1.05); }
+        .dragon { margin: 20px; }
+    </style>
+</head>
+<body>
+    <h1>🐉 Добро пожаловать в Галерею Драконов! 🐉</h1>
+    <p>Наслаждайся прекрасными артами с моими собратьями!</p>
+    <div class="gallery">
+        <div class="dragon"><img src="https://picsum.photos/id/1015/400/300" alt="Dragon 1"><p>Могучий Красный Дракон</p></div>
+        <div class="dragon"><img src="https://picsum.photos/id/102/400/300" alt="Dragon 2"><p>Летающий Синий</p></div>
+        <div class="dragon"><img src="https://picsum.photos/id/1033/400/300" alt="Dragon 3"><p>Древний Золотой</p></div>
+        <!-- Добавь больше изображений здесь! -->
+    </div>
+    <footer><p>Создано твоим добрым драконом с седлом ✨</p></footer>
+</body>
+</html>
